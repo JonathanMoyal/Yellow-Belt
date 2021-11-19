@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgb(41, 36, 36);
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0 10px;
+}
+
+.sub-header {
+    background-color: rgb(230, 183, 114);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    margin: 0 10px;
+    text-align: center;
+}
+
+h1 {
+    padding-left: 20px;
+}
+
+h1 span {
+    color: orange;
+}
+.wrapper {
+    border-radius: 12px;
+}
+.search {
+    display: flex;
+    width: 200px;
+    height: 40px;
+    padding: 0 10px;
+}
+
+#search-btn {
+    background-color: rgb(89, 89, 248);
+    height: 40px;
+    width: 40px;
+}
+
+.join {
+    background-color: orange;
+    height: 40px;
+    width: 100px;
+    font-size: 120%;
+    box-shadow: 5px 5px black;
+    margin-right: 20px;
+}
+
+.login {
+    background-color: rgb(44, 44, 235);
+    height: 40px;
+    width: 100px;
+    font-size: 120%;
+    box-shadow: 5px 5px black;
+    margin-right: 20px;
+}
+
+.icon {
+    background-color: white;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.body {
+    background-color: white;
+    display: flex;
+}
+
+.main-body {
+    background-color: rgb(196, 192, 189);
+    width: 66%;
+    text-align: center;
+    margin: 20px 10px;
+}
+
+.rotd-pic {
+    width: 95%;
+}
+
+h2 {
+    padding: 20px;
+    color: rgb(44, 7, 179);
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.main-desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px 20px 50px;
+    font-size: 26px;
+}
+
+.likes {
+    width: 20px;
+}
+
+.side-body {
+    width: 33%;
+    margin: 10px;
+}
+
+h3 {
+    border-bottom: 2px solid gray;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.sb-pic {
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+

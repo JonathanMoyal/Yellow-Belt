@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JustDessert</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Just<span>Dessert</span></h1>
+        <span>
+            <button onclick="this.remove()" class="join">Join</button>
+            <button class="login">Login</button>
+        </span>
+    </div>
+    <div class="sub-header">
+        <form class="search">
+            <input type="text" placeholder="Search" id="search">
+            <button type="submit" onclick="return clicked();" id="search-btn">Go</button>
+        </form>    
+        <div>
+            <img src="C:\Users\Yonatron\Desktop\CD Assignments\Yellow Belt\imgs\cake.png" alt="cake icon" class="icon" >
+            <p>Cake</p>
+        </div>
+        <div>
+            <img src="C:\Users\Yonatron\Desktop\CD Assignments\Yellow Belt\imgs\cookie.png" alt="cookie icon" class="icon"> 
+            <p>Cookies</p>
+        </div>
+        <div>
+            <img src="C:\Users\Yonatron\Desktop\CD Assignments\Yellow Belt\imgs\ice-cream.png" alt="ice cream icon" class="icon"> 
+            <p>Ice Cream</p>
+        </div>
+        <div>
+            <img src="C:\Users\Yonatron\Desktop\CD Assignments\Yellow Belt\imgs\pie.png" alt="pie icon" class="icon"> 
+            <p>Pie</p>
+        </div>
+    </div>
+
+    <div class="body">
+        <div class="main-body">
+            <div class="main-recipe">
+                <h2>Recipe of the Day</h2>
+                <img src="C:\Users\Yonatron\Desktop\CD Assignments\Yellow Belt\imgs\orange-tart.jpg" alt="Orange tart" class="rotd-pic">
+            </div>
+            <div class="main-desc">
+                <p>Orange Tea Jelly Tart <br>By: <a href="#">yuripiano</a></p>
+                <span>
+                    <button onclick="addLike(1)"><img src="C:\Users\Yonatron\Desktop\CD Assignments\Yellow Belt\imgs\heart.png" alt="heart like button" class="likes"></button> 
+                    <p id="1">0</p>
+                </span>
+            </div>
+            <a href="#">See Full Recipe</a>
+        </div>
+        <div class="side-body">
+            <h3>Recommended for you:</h3>
+            <div class="rec-1">
+                <img src="C:\Users\Yonatron\Desktop\CD Assignments\Yellow Belt\imgs\macarons.jpg" alt="macarons" class="sb-pic">
+                <div class="main-desc">
+                    <p>Macarons <br>By: <a href="#">EmilieW</a></p>
+                    <span>
+                        <button onclick="addLike(2)"><img src="C:\Users\Yonatron\Desktop\CD Assignments\Yellow Belt\imgs\heart.png" alt="heart like button" class="likes"></button> 
+                        <p id="2">0</p>
+                    </span>
+                </div>
+            </div>
+            <div class="rec-2">
+                <img src="C:\Users\Yonatron\Desktop\CD Assignments\Yellow Belt\imgs\creme-brulee.jpg" alt="creme-brulee" class="sb-pic">
+                <div class="main-desc">
+                    <p>Creme-Brulee <br>By: <a href="#">MarisaG</a></p>
+                    <span>
+                        <button onclick="addLike(3)"><img src="C:\Users\Yonatron\Desktop\CD Assignments\Yellow Belt\imgs\heart.png" alt="heart like button" class="likes"></button> 
+                        <p id="3">0</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
